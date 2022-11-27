@@ -1,0 +1,93 @@
+@font-face{
+  font-family: "cz";
+  src: url("Cinzel-VariableFont_wght.ttf") format("truetype");
+}
+@font-face{
+  font-family: "Os";
+  src: url("Oswald-SemiBold.ttf") format("truetype");
+}
+@font-face{
+  font-family: "czsb";
+  src: url("Cinzel-SemiBold.ttf") format("truetype");
+}
+@font-face{
+  font-family: "ml";
+  src: url("MPLUS1p-Regular.ttf") format("truetype");
+}
+
+/* navbar */
+.container .nav-wrapper a img{
+  width: 50px;
+  height: 50px;
+  margin-top: 7px;
+}
+.container a{
+  font-family: 'Os', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+/* navbar */
+
+/* slider */
+.slider img{
+  opacity: .5;
+}
+.slider h1,h2{
+  font-family: 'czsb', Arial, Helvetica, sans-serif;
+  color: chocolate;
+  font-weight: bold;
+}
+.slider h3,h4{
+  font-family: 'cz', Arial, Helvetica, sans-serif;
+}
+/* slider */
+
+/* about */
+.about img{
+  width: 320px;
+  height: 270px;
+  border-radius: 10px;
+}
+.about p{
+  font-family: 'ml', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* about */
+
+/* parallax */
+.parallax-container{
+  height: 240px;
+}
+.org h3{
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.org1{
+  background-color: #ffa726;
+  width: 200px;
+  padding: 20px;
+  margin-left: 130px;
+  margin-top: 15px;
+}
+.org1 a{
+  color: black;
+}
+.org1:hover{
+  background-color: #f57c00;
+}
+.org2{
+  background-color: #ffa726;
+  width: 200px;
+  padding: 20px;
+  margin-left: 130px;
+  
+}
+.org2 a{
+  color: black;
+}
+.org2:hover{
+  background-color: #f57c00;
+}
+/* parallax */
+
+
+section{
+  padding: 20px 0;
+}
