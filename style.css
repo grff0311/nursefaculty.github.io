@@ -91,3 +91,15 @@
 section{
   padding: 20px 0;
 }
+
+/* sosial */
+.sosial a{
+  transition: .5s;
+  border-radius: 5px;
+}
+
+.sosial a:hover{
+  background-color: antiquewhite;
+  padding: 5px;
+}
+/* sosial */
